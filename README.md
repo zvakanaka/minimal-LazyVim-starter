@@ -1,5 +1,18 @@
 # Minimal LazyVim Starter
 
+## What is this?
+
+An alternative to [LazyVim](https://github.com/LazyVim/LazyVim) that uses fewer dependencies.
+
+Few dependencies:
+
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
+- [snacks.nvim](https://github.com/folke/snacks.nvim)
+- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [mini.bufremove](https://github.com/nvim-mini/mini.bufremove) (used with bufferline.nvim)
+
+## Installation
+
 - Make a backup of your current Neovim files:
 
 ```sh
