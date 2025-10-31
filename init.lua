@@ -3,6 +3,10 @@ require("config.autocmds")
 vim.g.mapleader = " "
 require("config.keymaps")
 
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.expandtab = true
+
 -- Ensure wl-clipboard is installed (e.g., via package manager: sudo apt install wl-clipboard)
 -- Set clipboard to use wl-copy and wl-paste for Wayland
 vim.g.clipboard = {
