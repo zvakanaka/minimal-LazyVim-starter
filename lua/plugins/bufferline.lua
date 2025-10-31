@@ -1,8 +1,7 @@
 -- adapted from full spec at https://www.lazyvim.org/plugins/ui#bufferlinenvim
 return {
   "akinsho/bufferline.nvim",
-  dependencies = { "nvim-mini/mini.bufremove" },
-  event = "VeryLazy",
+ event = "VeryLazy",
   keys = {
     { "<leader>bp", "<Cmd>BufferLineTogglePin<CR>", desc = "Toggle Pin" },
     { "<leader>bP", "<Cmd>BufferLineGroupClose ungrouped<CR>", desc = "Delete Non-Pinned Buffers" },
@@ -19,7 +18,7 @@ return {
     {
       "<leader>bb",
       function(n)
-        require("mini.bufremove").delete(n, false)
+        Snacks.bufdelete()
       end,
       desc = "Delete Buffer",
     },
@@ -27,9 +26,9 @@ return {
   opts = {
     options = {
       -- stylua: ignore
-      close_command = function(n) require("mini.bufremove").delete(n, false) end,
+      close_command = function(n) Snacks.bufdelete(n) end,
       -- stylua: ignore
-      right_mouse_command = function(n) require("mini.bufremove").delete(n, false) end,
+      right_mouse_command = function(n) Snacks.bufdelete(n) end,
       diagnostics = "nvim_lsp",
       always_show_bufferline = false,
       diagnostics_indicator = function(_, _, diag)

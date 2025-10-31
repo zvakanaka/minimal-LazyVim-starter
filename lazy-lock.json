@@ -1,6 +1,5 @@
 {
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
-  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
-  "mini.bufremove": { "branch": "main", "commit": "1b5d7e7bc81cd02476bdd964c3d850c48eb91a07" },
-  "snacks.nvim": { "branch": "main", "commit": "f6c06415a27bd63b038e0c624b11d272c300390f" }
+  "lazy.nvim": { "branch": "main", "commit": "f0f5bbb9e5bfae5e6468f9359ffea3d151418176" },
+  "snacks.nvim": { "branch": "main", "commit": "0bc7c2631a3bb35a20e0e5938401765bb9516496" }
 }

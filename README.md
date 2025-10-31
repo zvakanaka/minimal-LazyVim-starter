@@ -9,7 +9,6 @@ Few dependencies:
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [snacks.nvim](https://github.com/folke/snacks.nvim)
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
-- [mini.bufremove](https://github.com/nvim-mini/mini.bufremove) (used with bufferline.nvim)
 
 ## Installation
 
