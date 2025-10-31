@@ -20,12 +20,12 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 - Remove the `.git` folder, so you can add it to your own repo later
 
-  ```sh
-  rm -rf ~/.config/nvim/.git
-  ```
+```sh
+rm -rf ~/.config/nvim/.git
+```
 
 - Start Neovim!
 
-  ```sh
-  nvim
-  ```
+```sh
+nvim
+```
